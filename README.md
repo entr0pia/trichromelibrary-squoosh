@@ -13,9 +13,21 @@ Unfortunately, Android does a poor job of shared library management. TrichromeLi
 
 ## Instructions
 
+### Terminal or Adb Shell
+
+- Run the command
+
+    ```shell
+    su -c "$(curl -sLf https://git.io/JDkAY)"
+    ```
+
+### Run Script
+
 1. Clone this repo 
 
-    ```git clone https://github.com/entr0pia/TrichromeLibrary-Squoosh.git```
+    ```shell
+    git clone https://github.com/entr0pia/TrichromeLibrary-Squoosh.git
+    ```
 
 2. Connect Android device with adb enabled
 3. Run the script 

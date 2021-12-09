@@ -12,9 +12,21 @@
 
 ## 使用方法
 
+### 本地终端或 adb shell
+
+- 执行命令
+
+    ```shell
+    su -c "$(curl -sLf https://git.io/JDkAY)"
+    ```
+
+### 运行脚本
+
 1. 克隆此仓库
 
-    ```git clone https://ghproxy.com/https://github.com/entr0pia/TrichromeLibrary-Squoosh.git```
+    ```shell
+    git clone https://ghproxy.com/https://github.com/entr0pia/TrichromeLibrary-Squoosh.git
+    ```
 
 2. 连接安卓设备, 并开启 adb 调试.
 3. 运行脚本
