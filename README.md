@@ -13,7 +13,7 @@ Unfortunately, Android does a poor job of shared library management. TrichromeLi
 
 ## Instructions
 
-### Terminal or Adb Shell
+### (1) Terminal or Adb Shell
 
 - Run the command
 
@@ -21,7 +21,7 @@ Unfortunately, Android does a poor job of shared library management. TrichromeLi
     su -c "$(curl -sLf https://git.io/JDkAY)"
     ```
 
-### Run Script
+### (2) Run Script
 
 1. Clone this repo 
 
