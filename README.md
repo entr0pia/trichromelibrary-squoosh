@@ -15,6 +15,10 @@ Since each Android application will have its own directory under ```/data/app```
 ![TrichromeLibrary dirs](imgs/trichrome_libs.jpg)
 ## Instructions
 
+### (0) Magisk Module
+
+- [TrichromeLibrary-Squoosh-mm](https://github.com/entr0pia/TrichromeLibrary-Squoosh-mm)
+
 ### (1) Terminal or Adb Shell
 
 - Run the command

@@ -15,6 +15,10 @@
 ![TrichromeLibrary 目录](imgs/trichrome_libs.jpg)
 ## 使用方法
 
+### (0) Magisk 模块
+
+- [TrichromeLibrary-Squoosh-mm](https://github.com/entr0pia/TrichromeLibrary-Squoosh-mm)
+
 ### (1) 本地终端或 adb shell
 
 - 执行命令
