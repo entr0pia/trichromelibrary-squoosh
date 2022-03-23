@@ -1,6 +1,6 @@
 # TrichromeLibrary-Squoosh
 
-[English](https://github.com/entr0pia/TrichromeLibrary-Squoosh#readme) | [中文](https://github.com/entr0pia/TrichromeLibrary-Squoosh/blob/master/README_ZH.md)
+[English](https://github.com/entr0pia/trichromelibrary-squoosh#readme) | [中文](https://github.com/entr0pia/trichromelibrary-squoosh/blob/master/README_ZH.md)
 
 移除过时的 TrichromeLibrary. **需要 root 权限**
 
@@ -12,40 +12,7 @@
 
 由于每个 Android App 都会在 ```/data/app``` 下面拥有一个自己的目录, 而且 TrichromeLibrary 的文件夹名还会追加版本号, 如下图. 所以我们可以查找关键字, 然后从结果中提取版本号. 不过, 访问 ```/data/app``` 需要 root 权限.
 
-![TrichromeLibrary 目录](imgs/trichrome_libs.jpg)
-## 使用方法
-
-### (0) Magisk 模块
-
-- [TrichromeLibrary-Squoosh-mm](https://github.com/entr0pia/TrichromeLibrary-Squoosh-mm)
-
-### (1) 本地终端或 adb shell
-
-- 执行命令
-
-    ```shell
-    su -c "$(curl -sLf https://raw.githubusercontent.com/entr0pia/TrichromeLibrary-Squoosh/master/squoo.sh)"
-    ```
-
-    - 国内代理
-    
-    ```shell
-    su -c "$(curl -sLf https://cdn.jsdelivr.net/gh/entr0pia/TrichromeLibrary-Squoosh@master/squoo.sh)"
-    ```
-
-### (2) 运行脚本
-
-1. 克隆此仓库
-
-    ```shell
-    git clone https://ghproxy.com/https://github.com/entr0pia/TrichromeLibrary-Squoosh.git
-    ```
-
-2. 连接安卓设备, 并开启 adb 调试.
-3. 运行脚本
-
-    - Windows: 双击 ```run.bat```
-    - Linux: 执行 ```sh run.bat``` 命令
+![TrichromeLibrary 目录](https://github.com/entr0pia/TrichromeLibrary-Squoosh/raw/master/imgs/trichrome_libs.jpg)
 
 ## 备选方案
 

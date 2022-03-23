@@ -1,6 +1,6 @@
 # TrichromeLibrary-Squoosh
 
-[English](https://github.com/entr0pia/TrichromeLibrary-Squoosh#readme) | [中文](https://github.com/entr0pia/TrichromeLibrary-Squoosh/blob/master/README_ZH.md)
+[English](https://github.com/entr0pia/trichromelibrary-squoosh#readme) | [中文](https://github.com/entr0pia/trichromelibrary-squoosh/blob/master/README_ZH.md)
 
 Remove the outdated TrichromeLibrary. **Root Privilege Required**
 
@@ -12,39 +12,7 @@ It is known that the corresponding version of TrichromeLibrary can be uninstalle
 
 Since each Android application will have its own directory under ```/data/app```, as shown in the figure below, and the folder name of TrichromeLibrary will also append the version number, so we can search for keywords, and then extract the version number from the results. However, root access is required to access ```/data/app```.
 
-![TrichromeLibrary dirs](imgs/trichrome_libs.jpg)
-## Instructions
-
-### (0) Magisk Module
-
-- [TrichromeLibrary-Squoosh-mm](https://github.com/entr0pia/TrichromeLibrary-Squoosh-mm)
-
-### (1) Terminal or Adb Shell
-
-- Run the command
-
-    ```shell
-    su -c "$(curl -sLf https://raw.githubusercontent.com/entr0pia/TrichromeLibrary-Squoosh/master/squoo.sh)"
-    ```
-    
-    - for short
-
-    ```shell
-    su -c "$(curl -sLf https://git.io/JDkAY)"
-    ```
-
-### (2) Run Script
-
-1. Clone this repo 
-
-    ```shell
-    git clone https://github.com/entr0pia/TrichromeLibrary-Squoosh.git
-    ```
-
-2. Connect Android device with adb enabled
-3. Run the script 
-    - Windows: Double click ```run.bat```
-    - Linux: Run command ```sh run.bat```
+![TrichromeLibrary dirs](https://github.com/entr0pia/trichromelibrary-squoosh/raw/master/imgs/trichrome_libs.jpg)
 
 ## Fallback
 
