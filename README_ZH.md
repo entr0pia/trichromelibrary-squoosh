@@ -12,7 +12,7 @@
 
 由于每个 Android App 都会在 ```/data/app``` 下面拥有一个自己的目录, 而且 TrichromeLibrary 的文件夹名还会追加版本号, 如下图. 所以我们可以查找关键字, 然后从结果中提取版本号. 不过, 访问 ```/data/app``` 需要 root 权限.
 
-![TrichromeLibrary 目录](https://github.com/entr0pia/TrichromeLibrary-Squoosh/raw/master/imgs/trichrome_libs.jpg)
+![TrichromeLibrary 目录](https://tvax2.sinaimg.cn/large/007uv4aMgy1h0k41g844cj30rs0eqgsx.jpg)
 
 ## 备选方案
 

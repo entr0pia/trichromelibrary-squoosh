@@ -12,7 +12,7 @@ It is known that the corresponding version of TrichromeLibrary can be uninstalle
 
 Since each Android application will have its own directory under ```/data/app```, as shown in the figure below, and the folder name of TrichromeLibrary will also append the version number, so we can search for keywords, and then extract the version number from the results. However, root access is required to access ```/data/app```.
 
-![TrichromeLibrary dirs](https://github.com/entr0pia/trichromelibrary-squoosh/raw/master/imgs/trichrome_libs.jpg)
+![TrichromeLibrary dirs](https://tvax2.sinaimg.cn/large/007uv4aMgy1h0k41g844cj30rs0eqgsx.jpg)
 
 ## Fallback
 
