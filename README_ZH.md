@@ -6,7 +6,7 @@
 
 ## 描述
 
-众所周知, Google 使用 TrichromeLibrary 在 Android Q+ 设备上的 Chrome 和 Webview 中共享相同的代码, 以节省设备空间. Play 商店在安装和升级 Chrome 和 Webview 时会自动安装相应的 TrichromeLibrary 版本, 但不会卸载旧版本. 
+众所周知, Google 使用 TrichromeLibrary 在 Android Q+ 设备上的 Chrome 和 Webview 中共享相同的代码, 以节省设备空间. Play 商店在安装和升级 Chrome 和 Webview 时会自动安装相应的 TrichromeLibrary 版本, **但是, 旧版本不会自动卸载**. 
 
 已知可以通过 ```pm uninstall com.google.android.trichromelibrary_$version``` 命令卸载对应版本的 TrichromeLibrary, 所以获取到 TrichromeLibrary 的版本号就可以手动卸载了. 不幸的是, Android 在共享库管理方面做得很差. TrichromeLibrary 不能像普通应用程序一样显示在应用程序列表中 (因为它是共享库), 也不能用 ```adb shell pm list libraries``` 查询设备上已安装的库版本.
 
