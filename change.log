@@ -1,3 +1,6 @@
+# v1.3
+1. Use a method that doesn't require root privileges instead
+
 # v1.2
 1. Support for (beta|dev|canary) versions
 
