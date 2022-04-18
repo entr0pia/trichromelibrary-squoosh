@@ -20,5 +20,6 @@
 1. 就是一个普通的 Magisk 模块. 从 [release](https://github.com/entr0pia/trichromelibrary-squoosh/releases/latest) 页面下载并安装.
 2. 如果你没有 Magisk, 在电脑上运行以下 adb 命令:
     ```shell
-    adb shell sh -c "$(curl -sLf https://cdn.jsdelivr.net/gh/entr0pia/trichromelibrary-squoosh@master/service.sh)"
+    adb shell
+    sh -c "$(curl -sLf https://cdn.jsdelivr.net/gh/entr0pia/trichromelibrary-squoosh@master/service.sh)"
     ```
