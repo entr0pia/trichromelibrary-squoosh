@@ -18,9 +18,8 @@ Thanks to issue#1, *TrichromeLibrary-Squoosh* now uses a method that does not re
 
 ## Usage
 
-1. Just like a normal Magisk module. Download it from the [release](https://github.com/entr0pia/trichromelibrary-squoosh/releases/latest) page, and install it.
-2. If you don't have a Magisk, run the follow commands on PC with adb:
+1. Just like a normal Magisk module. Download it from the [release](https://github.com/entr0pia/trichromelibrary-squoosh/releases/latest) page, and install it. The script will automatically check for excess Trichromelibrary and remove it after each system reboot.
+2. If you don't have a Magisk, run the follow commands on PC in `adb shell`:
     ```shell
-    adb shell
     sh -c "$(curl -sLf https://raw.githubusercontent.com/entr0pia/trichromelibrary-squoosh/master/service.sh)"
     ```
