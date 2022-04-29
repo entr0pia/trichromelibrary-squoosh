@@ -17,13 +17,15 @@ function squoosh_libs() {
 
 
 if [ "$(whoami)" != "shell" ]; then
-  echo "19 seconds delay to let the system finish booting..."
   sleep 19
 fi
 
 webview_stat=$(dumpsys webviewupdate)
 current_ver=$(echo "$webview_stat" | grep 'Current WebView package' | grep -oE '[0-9\.]{2,}')
 current_code=$(echo "$webview_stat" | grep "$current_ver" | grep -oE '[0-9]{9}')
-
-tri_libs=$(dumpsys -t 1 package | grep name:com.google.android.trichromelibrary | sed "s/[ ]version:/_/g; s/name://g; /$current_code/d")
+if [ "$whoami" == "root" ]; then
+  tri_libs=$(ls /data/data | grep com.google.android.trichromelibrary | sed "/$current_code/d")
+else
+  tri_libs=$(dumpsys -t 1 package | grep name:com.google.android.trichromelibrary | sed "s/[ ]version:/_/g; s/[ ]*name://g; /$current_code/d")
+fi
 squoosh_libs $tri_libs | tee "/data/local/tmp/trichromelibrary-squoosh.log"
