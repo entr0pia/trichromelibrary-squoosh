@@ -1,8 +1,5 @@
-# v1.3.3
-1. Fix parameter error
-
-# v1.3.1
-1. No delay when running as shell
+# v1.4
+1. Processing other shared libraries
 
 # v1.3
 1. Use a method that doesn't require root privileges instead

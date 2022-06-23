@@ -1,6 +1,6 @@
 {
-    "version": "v1.3.3",
-    "versionCode": 20220429,
+    "version": "v1.4",
+    "versionCode": 20220623,
     "zipUrl": "https://github.com/entr0pia/trichromelibrary-squoosh/releases/latest/download/trichromelibrary-squoosh.zip",
     "changelog": "https://raw.githubusercontent.com/entr0pia/trichromelibrary-squoosh/master/change.log"
 }
