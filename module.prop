@@ -1,8 +1,8 @@
 id=trichromelibrary-squoosh
 name=TrichromeLibrary Squoosh
-version=v1.4
-versionCode=20220623
+version=v1.5
+versionCode=20240809
 author=entr0pia@GitHub
 description=Remove the outdated TrichromeLibrary after reboot | 重启后移除过时的 TrichromeLibrary
-minMagisk=20300
+minMagisk=20400
 updateJson=https://raw.githubusercontent.com/entr0pia/trichromelibrary-squoosh/master/update.json
